@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #199114;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.lista-cadastro{
+    display: flex;
+    margin: 20px 0;
+}
+
+.lista-cadastro input[type=text]{
+    flex: 1;
+    height: 40px;
+    padding-left: 20px;
+    margin:0 7px;
+    border-radius: 15px;
+}
+
+.lista-cadastro input[type=number]{
+    height: 40px;
+    padding-left: 20px;
+    margin:0 7px;
+    border-radius: 15px;
+}
+
+.lista-cadastro input[type=submit]{
+    background-color: #199114;
+    color:#fff;
+    height: 40px;
+    padding: 8px;
+    margin: 0 7px;
+    border-radius: 15px;
+    font-size: 17px;
+}
+
+button[name=limpar]{
+    background-color: #199114;
+    color:#fff;
+    height: 30px;
+    padding: 5px;
+    margin: 0 7px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.lista-produto-single{
+    padding: 10px 0;
+    margin: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.lista-produto-single h3{
+    flex: 1;
+    padding:0 20px;
+}
+
+h3.nome-produto{
+    text-align: left;
+    margin-left: 10px;
+}
+
+
+h3.preco-produto{
+    text-align: right;
+    font-size: 15px;
+}
+
+h3.preco-produto > span{
+    background-color: #199114;
+    padding: 8px 10px;
+    border-radius: 20px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.soma-produto{
+    text-align: right;
+    padding: 20px 0 ;
+    margin: 10px ;
+}
+
